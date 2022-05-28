@@ -7,13 +7,130 @@
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
-
-.main-header {
-  background-color : white;
-  padding: 30px;
-  margin-left: -30px;
-  margin-right: -30px;
-  border-bottom: 4px solid rgb(8, 5, 5);
-  border-top: 12px solid rgb(0, 0, 0);
+body {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
+
+.header-nav2{
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(0, 13, 255);
+  display: inline-block
+}
+
+
+.header-header{
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.header-header a{
+  color: rgb(0, 13, 255);
+  text-decoration: none;
+}
+
+.header-header a:hover{
+  background-color: black;
+  color: rgb(230, 255, 196);
+}
+
+.header{
+  padding: 30px;
+  background-color: white;  
+  border-bottom: 4px solid rgb(8, 5, 5);
+  border-top: 12px solid rgb(0, 0, 0);
+  background-size: cover;
+  margin-left: -30px;
+  margin-right: -30px;
+  
+}
+
+.header-container{
+  display: flex;
+}
+
+.header-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.header-nav a{
+  padding: .8em;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 13, 255);
+}
+
+.header-nav a:hover{
+  background-color: rgb(22, 22, 22);
+  color: rgb(247, 255, 171);
+}
+
+.hero-search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.footer-nav2{
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(0, 13, 255);
+  display: inline-block
+}
+
+
+.footer-header{
+  font-size: 22px;
+  font-weight: 300;
+  color: rgb(0, 13, 255);
+}
+
+.footer-header a{
+  color: rgb(0, 13, 255);
+  text-decoration: none;
+}
+
+.footer-header a:hover{
+  background-color: black;
+  color: rgb(230, 255, 196);
+}
+
+.footer{
+  padding: 30px;
+  background-color: white;  
+  border-top: 4px solid rgb(8, 5, 5);
+  background-size: cover;
+  margin-left: -30px;
+  margin-right: -30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-container{
+  display: flex;
+}
+
+.footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav a{
+  padding: .8em;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 13, 255);
+}
+
+.footer-nav a:hover{
+  background-color: rgb(22, 22, 22);
+  color: rgb(247, 255, 171);
+}
