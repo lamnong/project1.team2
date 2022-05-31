@@ -77,12 +77,9 @@ body {
   background-color: rgb(0, 0, 0, .6);
   background-blend-mode: multiply;
   justify-content: center;
-  /* margin-top: 200px;
-  margin-bottom: 200px; */
   margin-left: -30px;
   margin-right: -30px;
-  /* background-color: rgb(255, 255, 255); */
-  height:888px;
+  height:1228px;
   background-image: url(bg-img2.jpg);
   background-size: cover;
 }
