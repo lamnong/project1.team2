@@ -241,3 +241,35 @@ body {
   padding-left: 14px;
   padding-right: 14px;
 }
+
+.section {
+  padding-top: 44px;
+  margin-padding: 44px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.728);
+  color: white;
+  height: auto;
+  display: flex;
+}
+
+.section-title2{
+  color: white;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  font-size: 33px;
+}
+
+.indent {
+  margin-left: 33px;
+}
+
+.description {
+  color: white;
+  font-size:18px;
+  line-height: 26px;
+  margin-bottom: 22px;
+}
+
+.hero-image {
+  margin-top: 22px;
+}
