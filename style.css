@@ -244,7 +244,7 @@ body {
 
 .section {
   padding-top: 44px;
-  margin-padding: 44px;
+  /* margin-padding: 44px; */
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.728);
   color: white;
@@ -259,10 +259,6 @@ body {
   font-size: 33px;
 }
 
-.indent {
-  margin-left: 33px;
-}
-
 .description {
   color: white;
   font-size:18px;
@@ -272,4 +268,7 @@ body {
 
 .hero-image {
   margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 18px;
+  margin-right: 44px;
 }
