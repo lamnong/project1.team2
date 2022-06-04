@@ -24,3 +24,12 @@ Process: What were the technologies used? How were tasks and roles broken down a
 Demo: Show your stuff!
 Directions for future development.
 Links to the deployed application and the GitHub repository.
+
+
+We don't want this info for the hero
+// var generalInfoElement = document.createElement("p")
+  // generalInfoElement.innerText = `
+  //   Full Name: ${fullname}
+  //   Place of birth:${pob}
+  //   Publisher:${publisher}
+  // `
