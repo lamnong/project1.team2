@@ -1,4 +1,6 @@
-# project1.team2
+[project1.team2](https://lamnong.github.io/project1.team2/)
+
+Link to github: https://github.com/lamnong/project1.team2
 
 Project Requirements
 
