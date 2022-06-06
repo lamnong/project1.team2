@@ -15,7 +15,7 @@ body {
   background-color: rgba(23, 23, 23, 0.6);
   background-blend-mode: multiply;
   background-image: url(./images/bg-img2.jpeg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .header {
@@ -51,8 +51,8 @@ body {
   font-size: 21px;
   border: none;
   margin-left: 18px;
-  height: 36px;
-  width: 36px;
+  height: 42px;
+  width: 42px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -63,23 +63,24 @@ body {
 
 #search_button:hover {
   cursor: crosshair;
-  transition: all 0.1s ease;
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -ms-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   background-color: rgb(186, 255, 146);
-  transform: skew(15deg, 15deg);
-  -webkit-transform: skew(15deg, 15deg);
-  -moz-transform: skew(15deg, 15deg);
-  -ms-transform: skew(15deg, 15deg);
-  -o-transform: skew(15deg, 15deg);
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
 }
 
 #search_input {
-  height: 36px;
+  height: 42px;
+  width: 400px;
   border: none;
-  padding-left: 7px;
+  padding-left: 12px;
   background-color: rgb(255, 254, 215);
   font-size: 22px;
   font-weight: 200;
