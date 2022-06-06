@@ -155,4 +155,7 @@ body {
 
 .giphy-img {
   padding-right: 30px;
+  margin-left: 50px;
+  justify-content: center;
+  padding-top: 30px;
 }
